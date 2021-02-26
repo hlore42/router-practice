@@ -15,7 +15,9 @@ function IssueDetail() {
     useEffect(() => {
         fetchIssue();
     }, [id])
-
+    if (!issue) {
+        return ''
+    }
     return (
         <div>
             <h1> {issue.title}  </h1>

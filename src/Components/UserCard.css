@@ -1,0 +1,18 @@
+.UserCard {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    border-radius: 5px;
+
+}
+.UserCard_image {
+    border-radius: 50%;
+    height: 80px;
+    width: auto;
+    margin-right: 10px;
+
+}
+.UserCard_meta h3 {
+    margin-top: 0;
+}
